@@ -1,0 +1,58 @@
+[
+  {
+    "appointment_id": "20250906143526",
+    "patient_name": "Sai Harsha",
+    "patient_email": "saiharshatalluri12010@gmail.com",
+    "patient_phone": "+91 9542328970",
+    "appointment_datetime": "2025-09-10T09:10:00",
+    "doctor_name": "Dr. Reddy",
+    "location": "Main - location ",
+    "appointment_status": "pending",
+    "forms_completed": false,
+    "cancellation_reason": null,
+    "reminders": [
+      {
+        "reminder_id": "20250906143526_standard",
+        "appointment_id": "20250906143526",
+        "patient_name": "Sai Harsha",
+        "patient_email": "saiharshatalluri12010@gmail.com",
+        "patient_phone": "+91 9542328970",
+        "appointment_datetime": "2025-09-10T09:10:00",
+        "reminder_type": "standard",
+        "scheduled_time": "2025-09-06T14:35:32.730194",
+        "status": "sent",
+        "message_content": "Dear Sai Harsha,\n\nYour appointment is confirmed.\n\nPatient: Sai Harsha\nDoctor: Dr. Reddy\nLocation: Main - location \nDate: Wednesday, September 10, 2025\nTime: 09:10 AM\nDuration: 30 minutes\n\nWe've attached your intake forms. Please complete them before your visit.",
+        "response": null,
+        "sent_time": "2025-09-06T14:35:37.493943"
+      },
+      {
+        "reminder_id": "20250906143526_form_check",
+        "appointment_id": "20250906143526",
+        "patient_name": "Sai Harsha",
+        "patient_email": "saiharshatalluri12010@gmail.com",
+        "patient_phone": "+91 9542328970",
+        "appointment_datetime": "2025-09-10T09:10:00",
+        "reminder_type": "form_check",
+        "scheduled_time": "2025-09-09T09:10:00",
+        "status": "pending",
+        "message_content": "Have you completed your intake forms? Please do so before your visit. Also, please confirm if you are attending. If you cannot attend, reply with 'Appointment - Cancel' to free up this slot.",
+        "response": null,
+        "sent_time": null
+      },
+      {
+        "reminder_id": "20250906143526_confirmation",
+        "appointment_id": "20250906143526",
+        "patient_name": "Sai Harsha",
+        "patient_email": "saiharshatalluri12010@gmail.com",
+        "patient_phone": "+91 9542328970",
+        "appointment_datetime": "2025-09-10T09:10:00",
+        "reminder_type": "confirmation",
+        "scheduled_time": "2025-09-10T07:10:00",
+        "status": "pending",
+        "message_content": "This is your final reminder. Please confirm your attendance. If you are not attending, reply 'Appointment - Cancel' immediately.",
+        "response": null,
+        "sent_time": null
+      }
+    ]
+  }
+]

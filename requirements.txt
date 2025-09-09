@@ -1,0 +1,12 @@
+langchain
+langgraph
+openai
+streamlit
+gradio
+pandas
+openpyxl
+requests
+groq
+twilio
+pandas
+APScheduler
